@@ -1,0 +1,111 @@
+@font-face{
+    font-family: 'IBMPlexSans-Bold';
+    src: url("../font/IBMPlexSans-Bold.otf");
+
+}
+
+@font-face{
+    font-family: 'IBMPlexSans-Light';
+    src: url("../font/IBMPlexSans-Light.otf");
+
+}
+
+body{
+    background-color: #000000;
+    margin: 0px;
+
+   
+}
+
+
+#work{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: IBMPlexSans;
+    margin-top: 25px;
+}
+
+.Triangle{
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    -webkit-animation: move 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: move 5s infinite;
+}
+
+@-webkit-keyframes move {
+    from {left: 100px;}
+    to {left: 600px;}
+  }
+  
+  @keyframes move {
+    from {left: 100px;}
+    to {left: 600px;}
+  }
+
+.Rectangle{
+    position: absolute;
+    top: 183px;
+    left: 80%;
+    -webkit-animation: mymove infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation: mymove infinite;
+    animation-duration: 5s;
+ 
+
+}
+.Me{
+    position: absolute;
+    top: 270px;
+    left: 200px;
+}
+
+h1{
+    letter-spacing: -4.5px;
+    color: #FFFFFF;
+    font-size: 90px;
+    font-family: IBMPlexSans-Bold;
+}
+
+h5{
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 50px;
+    font-family: IBMPlexSans-Light;
+}
+
+.icons{ 
+    margin-top: 10px;  
+    margin-right: 20px;
+    
+}
+.poly{
+    position: absolute;
+    left: 70%;
+    -webkit-animation: mymove infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation: mymove infinite;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top: 120px;}
+  }
+  
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 120px;}
+  }
+
+.sub{
+    position: relative;
+    top: 400px;
+    left: 0px;
+    -webkit-animation: mymove infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation: mymove infinite;
+    animation-duration: 5s;
+}
+
+/* The Responsive code*/
